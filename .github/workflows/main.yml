@@ -21,6 +21,6 @@ jobs:
       uses: docker/setup-buildx-action@v2
     - name: Build and push
       run: |
-        docker build -t hpseow2023/intel:latest .
+        docker build -t hpseow2023/intel:v3 .
         docker images
     
